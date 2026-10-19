@@ -29,7 +29,7 @@ instead.
 
 > **SafePrompt helps you notice; it is not a guarantee.** It does not detect names or addresses written in words,
 > can miss values without a label, and using it does not make data anonymous or any processing GDPR-compliant.
-> Always read what you send.
+> Always read what you send. (Why no name detection yet: [our NER study](eval/ner/README.md).)
 
 ## Install
 

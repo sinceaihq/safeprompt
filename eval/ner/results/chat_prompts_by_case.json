@@ -1,0 +1,52 @@
+{
+ "davlan-distilmbert-hrl-int8": {
+  "lowercase_prompts": {
+   "n_gold_per": 20,
+   "per_ov_r": 0.05
+  },
+  "cased_prompts": {
+   "n_gold_per": 79,
+   "per_ov_r": 0.8987341772151899
+  }
+ },
+ "davlan-mbert-hrl-int8": {
+  "lowercase_prompts": {
+   "n_gold_per": 20,
+   "per_ov_r": 0.0
+  },
+  "cased_prompts": {
+   "n_gold_per": 79,
+   "per_ov_r": 0.9493670886075949
+  }
+ },
+ "nym-small-int8": {
+  "lowercase_prompts": {
+   "n_gold_per": 20,
+   "per_ov_r": 0.3
+  },
+  "cased_prompts": {
+   "n_gold_per": 79,
+   "per_ov_r": 1.0
+  }
+ },
+ "bardsai-mini-int8": {
+  "lowercase_prompts": {
+   "n_gold_per": 20,
+   "per_ov_r": 0.75
+  },
+  "cased_prompts": {
+   "n_gold_per": 79,
+   "per_ov_r": 0.9873417721518988
+  }
+ },
+ "bardsai-v1-int8": {
+  "lowercase_prompts": {
+   "n_gold_per": 20,
+   "per_ov_r": 0.35
+  },
+  "cased_prompts": {
+   "n_gold_per": 79,
+   "per_ov_r": 0.9493670886075949
+  }
+ }
+}

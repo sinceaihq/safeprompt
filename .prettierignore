@@ -6,3 +6,4 @@ eval/cache/
 tests/fixtures/
 package-lock.json
 docs/BENCHMARK.md
+eval/ner/results/

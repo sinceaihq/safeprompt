@@ -1,0 +1,176 @@
+{
+ "model": "bardsai-v1-int8",
+ "thresholds": {
+  "PER": 0.3,
+  "LOC": 0.3,
+  "ORG": 0.5
+ },
+ "sets": {
+  "chat_prompts": {
+   "false_negatives": [
+    {
+     "type": "LOC",
+     "text": "…o sarah o'connell that her invoice is overdue? she lives in ⟦cork⟧ if that matters",
+     "predicted_instead": []
+    },
+    {
+     "type": "PER",
+     "text": "rewrite this in a friendlier tone: hi ⟦jake⟧, per my last email the contract still isn't signed. regards…",
+     "predicted_instead": []
+    },
+    {
+     "type": "PER",
+     "text": "Bitte formuliere eine Mahnung für Familie ⟦Krause⟧, Hauptstraße 14, Bremen.",
+     "predicted_instead": [
+      "Familie Krause:ORG"
+     ]
+    },
+    {
+     "type": "LOC",
+     "text": "…dra pas, camille dubois prend le relais pour le chantier de ⟦nantes⟧",
+     "predicted_instead": []
+    },
+    {
+     "type": "PER",
+     "text": "resume esto: ⟦javi⟧ dice que marta no ha pagado el alquiler del piso de valenci…",
+     "predicted_instead": []
+    },
+    {
+     "type": "PER",
+     "text": "resume esto: javi dice que ⟦marta⟧ no ha pagado el alquiler del piso de valencia",
+     "predicted_instead": []
+    },
+    {
+     "type": "PER",
+     "text": "riassumi: marco ha detto che ⟦francesca⟧ non ha ancora firmato il contratto per l'appartamento di bo…",
+     "predicted_instead": []
+    },
+    {
+     "type": "LOC",
+     "text": "…ca non ha ancora firmato il contratto per l'appartamento di ⟦bologna⟧",
+     "predicted_instead": []
+    }
+   ],
+   "false_positives": [
+    {
+     "type": "PER",
+     "score": 0.72,
+     "text": "Schreib eine kurze Absage an ⟦Herrn⟧ Wolf, die Stelle ist leider schon vergeben."
+    }
+   ],
+   "n_fn": 24,
+   "n_fp": 1
+  },
+  "negatives": {
+   "false_negatives": [],
+   "false_positives": [],
+   "n_fn": 0,
+   "n_fp": 0
+  },
+  "europii": {
+   "false_negatives": [
+    {
+     "type": "PER",
+     "text": "Supplier ⟦Aoife O'Sullivan⟧ Ltd, VAT number IE3512681J, phone +353 85 082 3569. Item EA…",
+     "predicted_instead": [
+      "Aoife O'Sullivan Ltd:ORG"
+     ]
+    },
+    {
+     "type": "PER",
+     "text": "Supplier ⟦Conor Walsh⟧ Ltd, VAT number IE6369280U, phone +353 85 034 8984. Item EA…",
+     "predicted_instead": [
+      "Conor Walsh Ltd:ORG"
+     ]
+    },
+    {
+     "type": "PER",
+     "text": "Supplier ⟦Ciarán Doyle⟧ Ltd, VAT number IE2956758N, phone +353 85 096 4779. Item EA…",
+     "predicted_instead": [
+      "Ciarán Doyle Ltd:ORG"
+     ]
+    },
+    {
+     "type": "PER",
+     "text": "Supplier ⟦Liam Walsh⟧ Ltd, VAT number IE7914420F, phone +353 85 065 9854. Item EA…",
+     "predicted_instead": [
+      "Liam Walsh Ltd:ORG"
+     ]
+    },
+    {
+     "type": "PER",
+     "text": "Supplier ⟦Niamh Byrne⟧ Ltd, VAT number IE9002846W, phone +353 85 088 9049. Item EA…",
+     "predicted_instead": [
+      "Niamh Byrne Ltd:ORG"
+     ]
+    },
+    {
+     "type": "PER",
+     "text": "Supplier ⟦Niamh Walsh⟧ Ltd, VAT number IE2241612U, phone +353 85 054 8273. Item EA…",
+     "predicted_instead": [
+      "Niamh Walsh Ltd:ORG"
+     ]
+    },
+    {
+     "type": "PER",
+     "text": "Supplier ⟦Aoife Doyle⟧ Ltd, VAT number IE3960313F, phone +353 85 096 2678. Item EA…",
+     "predicted_instead": [
+      "Aoife Doyle Ltd:ORG"
+     ]
+    },
+    {
+     "type": "PER",
+     "text": "Supplier ⟦Emma O'Sullivan⟧ Ltd, VAT number IE0064092R, phone +353 85 018 5002. Item EA…",
+     "predicted_instead": [
+      "Emma O'Sullivan Ltd:ORG"
+     ]
+    }
+   ],
+   "false_positives": [
+    {
+     "type": "LOC",
+     "score": 0.54,
+     "text": "…n depuis 10.216.145.225 le 03/05/2026. La référence 2 32 08 ⟦41 070 835⟧ 24 est inconnue."
+    },
+    {
+     "type": "LOC",
+     "score": 0.53,
+     "text": "…depuis 91.147.98.169 le 05/05/2025. La référence 2 66 10 75 ⟦904⟧ 597 62 est inconnue."
+    },
+    {
+     "type": "LOC",
+     "score": 0.8,
+     "text": "Passenger Conor Byrne, ⟦Norwegian⟧ national identity number 260355 69048, booking 39364124323."
+    },
+    {
+     "type": "LOC",
+     "score": 0.61,
+     "text": "Applicant Emma Kelly, ⟦Estonian⟧ personal identification code 88104077979, reference INV-484…"
+    },
+    {
+     "type": "LOC",
+     "score": 0.63,
+     "text": "Student Ciarán O'Sullivan, ⟦Latvian⟧ personal code 081047-01044, enrolment number 28989238."
+    },
+    {
+     "type": "LOC",
+     "score": 0.82,
+     "text": "Driver Ciarán O'Brien, ⟦Slovak⟧ personal identification number 481122/9093, permit 2026-597…"
+    },
+    {
+     "type": "LOC",
+     "score": 0.76,
+     "text": "Driver Liam O'Brien, ⟦Slovak⟧ personal identification number 535622/8944, permit INV-3780…"
+    },
+    {
+     "type": "LOC",
+     "score": 0.65,
+     "text": "Driver Aoife Ryan, ⟦Slovak⟧ personal identification number 316117/6227, permit 2024-947…"
+    }
+   ],
+   "n_fn": 225,
+   "n_fp": 13
+  }
+ },
+ "note": "Only examples from text written for this study or synthetic EuroPII data are kept here; snippets from third-party corpora are not redistributed (regenerate them with the scripts)."
+}

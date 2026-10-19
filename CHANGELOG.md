@@ -3,11 +3,13 @@
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
-## [0.1.0] - 2026-10-20
+## [0.1.0] - 2026-10-19
 
 First public release.
 
 ### Added
+
+- Study of in-browser NER models for names and places (`eval/ner/`); not shipped in this release (see its README).
 
 - Detection engine in TypeScript, ported from EuroPII Guard 0.1.2: national IDs of 22 European countries, EU VAT
   numbers, IBANs, payment cards, phone numbers, e-mail and IP addresses, validated with check digits and birth dates.

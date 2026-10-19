@@ -1,0 +1,82 @@
+{
+ "model": "davlan-distilmbert-hrl-fp32",
+ "repo": "Xenova/distilbert-base-multilingual-cased-ner-hrl",
+ "onnx": "onnx/model.onnx",
+ "kind": "tc",
+ "licence": "AFL-3.0 (Davlan original; Xenova ONNX port has no licence tag)",
+ "notes": "distilmBERT, trained on CoNLL-02/03, ANERcorp, MSRA, Europeana-fr, Italian I-CAB, Latvian, Portuguese (10 HRL)",
+ "revision": "c2a4dbf593c57f47004c5bc2d3770d311aee9c43",
+ "onnx_bytes": 539099157,
+ "download_bytes": 542019446,
+ "files": [
+  "tokenizer.json",
+  "onnx/model.onnx",
+  "config.json"
+ ],
+ "load_seconds": 11.965039253234863,
+ "threads": 6,
+ "sets": {
+  "test/chat_prompts": {
+   "n": 80,
+   "seconds": 3.03
+  },
+  "test/code_stdlib": {
+   "n": 300,
+   "seconds": 33.32
+  },
+  "test/conll2002_es": {
+   "n": 500,
+   "seconds": 35.03
+  },
+  "test/conll2002_nl": {
+   "n": 500,
+   "seconds": 18.55
+  },
+  "test/europii": {
+   "n": 2075,
+   "seconds": 122.58
+  },
+  "test/germeval14_de": {
+   "n": 500,
+   "seconds": 35.36
+  },
+  "test/kpwr_pl": {
+   "n": 500,
+   "seconds": 34.27
+  },
+  "test/negatives": {
+   "n": 68,
+   "seconds": 5.17
+  },
+  "test/turku_fi": {
+   "n": 500,
+   "seconds": 27.42
+  },
+  "test/uner_da_ddt": {
+   "n": 500,
+   "seconds": 27.52
+  },
+  "test/uner_en_ewt": {
+   "n": 500,
+   "seconds": 24.23
+  },
+  "test/uner_hr_set": {
+   "n": 500,
+   "seconds": 45.34
+  },
+  "test/uner_pt_bosque": {
+   "n": 500,
+   "seconds": 38.06
+  },
+  "test/uner_sk_snk": {
+   "n": 500,
+   "seconds": 25.48
+  },
+  "test/uner_sv_pud": {
+   "n": 500,
+   "seconds": 28.31
+  }
+ },
+ "total_seconds": 516.0,
+ "peak_rss_mb_process": 1446.140625
+}

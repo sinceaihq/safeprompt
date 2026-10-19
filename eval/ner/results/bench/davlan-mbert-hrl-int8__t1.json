@@ -1,0 +1,25 @@
+{
+ "model": "davlan-mbert-hrl-int8",
+ "threads": 1,
+ "tokens_in_chunk": 127,
+ "chunk_chars": 515,
+ "latency_ms_median": 381.2906384919188,
+ "latency_ms_p90": 471.447158997762,
+ "latency_ms_min": 316.2777239922434,
+ "runs": 20,
+ "load_seconds": 2.46940016746521,
+ "peak_rss_mb": 349.640625,
+ "rss_after_imports_mb": 30.10546875,
+ "rss_delta_mb": 319.53515625,
+ "onnx_mb": 178.495423,
+ "tokenizer_mb": 2.919362,
+ "download_mb": 181.415992,
+ "files": [
+  "tokenizer.json",
+  "onnx/model_quantized.onnx",
+  "config.json"
+ ],
+ "revision": "263e82c06569c8c2ac46238a7ae5107598934234",
+ "loadavg_1m_at_end": 33.427734375,
+ "cpu": "AMD EPYC-Rome Processor"
+}

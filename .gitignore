@@ -7,5 +7,5 @@ playwright-report/
 .DS_Store
 eval/.venv/
 eval/cache/
-eval/ner/
+eval/ner/results/scores/
 eval/bench/data/

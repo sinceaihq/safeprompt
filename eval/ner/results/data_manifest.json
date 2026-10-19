@@ -1,0 +1,1040 @@
+{
+ "seed": 20261019,
+ "n_test": 500,
+ "n_dev": 300,
+ "sets": {
+  "test/conll2002_es": {
+   "lang": "es",
+   "family": "conll2002",
+   "pool": 1517,
+   "sampled": 500,
+   "entities": {
+    "LOC": 367,
+    "PER": 273,
+    "ORG": 473
+   },
+   "ignored_entities": 113,
+   "ids_sha256": "385b74dceb161f7d"
+  },
+  "test/conll2002_nl": {
+   "lang": "nl",
+   "family": "conll2002",
+   "pool": 5195,
+   "sampled": 500,
+   "entities": {
+    "PER": 113,
+    "ORG": 88,
+    "LOC": 64
+   },
+   "ignored_entities": 125,
+   "ids_sha256": "37a5856fe618ef6e"
+  },
+  "test/germeval14_de": {
+   "lang": "de",
+   "family": "germeval14",
+   "pool": 5100,
+   "sampled": 500,
+   "entities": {
+    "PER": 176,
+    "ORG": 120,
+    "LOC": 185
+   },
+   "ignored_entities": 156,
+   "ids_sha256": "00946f19211eb85f"
+  },
+  "test/kpwr_pl": {
+   "lang": "pl",
+   "family": "kpwr",
+   "pool": 4323,
+   "sampled": 500,
+   "entities": {
+    "ORG": 129,
+    "LOC": 145,
+    "PER": 106
+   },
+   "ignored_entities": 170,
+   "ids_sha256": "de541b7429a7397d"
+  },
+  "test/multiconer2_de": {
+   "lang": "de",
+   "family": "multiconer2",
+   "pool": 20145,
+   "sampled": 500,
+   "entities": {
+    "ORG": 98,
+    "LOC": 112,
+    "PER": 302
+   },
+   "ignored_entities": 206,
+   "ids_sha256": "5befe666836b9cad"
+  },
+  "test/multiconer2_en": {
+   "lang": "en",
+   "family": "multiconer2",
+   "pool": 249980,
+   "sampled": 500,
+   "entities": {
+    "PER": 270,
+    "LOC": 132,
+    "ORG": 132
+   },
+   "ignored_entities": 244,
+   "ids_sha256": "d6d19664dbea5467"
+  },
+  "test/multiconer2_es": {
+   "lang": "es",
+   "family": "multiconer2",
+   "pool": 246900,
+   "sampled": 500,
+   "entities": {
+    "PER": 226,
+    "LOC": 153,
+    "ORG": 108
+   },
+   "ignored_entities": 222,
+   "ids_sha256": "cb3d485d163e4e0e"
+  },
+  "test/multiconer2_fr": {
+   "lang": "fr",
+   "family": "multiconer2",
+   "pool": 249786,
+   "sampled": 500,
+   "entities": {
+    "PER": 300,
+    "LOC": 134,
+    "ORG": 86
+   },
+   "ignored_entities": 278,
+   "ids_sha256": "5ca694652b44835f"
+  },
+  "test/multiconer2_it": {
+   "lang": "it",
+   "family": "multiconer2",
+   "pool": 247881,
+   "sampled": 500,
+   "entities": {
+    "LOC": 134,
+    "PER": 348,
+    "ORG": 91
+   },
+   "ignored_entities": 231,
+   "ids_sha256": "1ce1c9236cda5d34"
+  },
+  "test/multiconer2_pt": {
+   "lang": "pt",
+   "family": "multiconer2",
+   "pool": 229490,
+   "sampled": 500,
+   "entities": {
+    "ORG": 97,
+    "PER": 282,
+    "LOC": 173
+   },
+   "ignored_entities": 212,
+   "ids_sha256": "61ec8e6179867b79"
+  },
+  "test/multiconer2_sv": {
+   "lang": "sv",
+   "family": "multiconer2",
+   "pool": 231190,
+   "sampled": 500,
+   "entities": {
+    "PER": 247,
+    "ORG": 89,
+    "LOC": 239
+   },
+   "ignored_entities": 211,
+   "ids_sha256": "5953064b5c7a6072"
+  },
+  "test/turku_fi": {
+   "lang": "fi",
+   "family": "turku",
+   "pool": 1555,
+   "sampled": 500,
+   "entities": {
+    "ORG": 67,
+    "PER": 104,
+    "LOC": 92
+   },
+   "ignored_entities": 69,
+   "ids_sha256": "bcc4b8dce8907f1d"
+  },
+  "test/uner_da_ddt": {
+   "lang": "da",
+   "family": "uner",
+   "pool": 565,
+   "sampled": 500,
+   "entities": {
+    "PER": 162,
+    "LOC": 82,
+    "ORG": 148
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "79fb7ad4b33ea1d2"
+  },
+  "test/uner_de_pud": {
+   "lang": "de",
+   "family": "uner",
+   "pool": 1000,
+   "sampled": 500,
+   "entities": {
+    "LOC": 210,
+    "PER": 202,
+    "ORG": 101
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "e219e4a71ebca878"
+  },
+  "test/uner_en_ewt": {
+   "lang": "en",
+   "family": "uner",
+   "pool": 2077,
+   "sampled": 500,
+   "entities": {
+    "LOC": 66,
+    "PER": 105,
+    "ORG": 74
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "451dff6d39da2b74"
+  },
+  "test/uner_hr_set": {
+   "lang": "hr",
+   "family": "uner",
+   "pool": 1136,
+   "sampled": 500,
+   "entities": {
+    "LOC": 285,
+    "PER": 152,
+    "ORG": 192
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "03ef51510fb02309"
+  },
+  "test/uner_pt_bosque": {
+   "lang": "pt",
+   "family": "uner",
+   "pool": 1167,
+   "sampled": 500,
+   "entities": {
+    "PER": 210,
+    "ORG": 245,
+    "LOC": 148
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "3dc2d897c422a13d"
+  },
+  "test/uner_sk_snk": {
+   "lang": "sk",
+   "family": "uner",
+   "pool": 1061,
+   "sampled": 500,
+   "entities": {
+    "PER": 279,
+    "ORG": 30,
+    "LOC": 163
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "cfe877bfd7e9dddd"
+  },
+  "test/uner_sv_pud": {
+   "lang": "sv",
+   "family": "uner",
+   "pool": 1000,
+   "sampled": 500,
+   "entities": {
+    "PER": 206,
+    "ORG": 85,
+    "LOC": 245
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "7ea8f77afff8fce7"
+  },
+  "test/uner_sv_talbanken": {
+   "lang": "sv",
+   "family": "uner",
+   "pool": 1219,
+   "sampled": 500,
+   "entities": {
+    "LOC": 72,
+    "ORG": 12,
+    "PER": 16
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "c958594e2f330f05"
+  },
+  "test/wikiann_cs": {
+   "lang": "cs",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 500,
+   "entities": {
+    "PER": 230,
+    "LOC": 291,
+    "ORG": 211
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "b6d40eef8b59c961"
+  },
+  "test/wikiann_da": {
+   "lang": "da",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 500,
+   "entities": {
+    "LOC": 258,
+    "ORG": 221,
+    "PER": 208
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "e3ca8fadad2c9d19"
+  },
+  "test/wikiann_de": {
+   "lang": "de",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 500,
+   "entities": {
+    "ORG": 208,
+    "PER": 252,
+    "LOC": 228
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "631d95d0fd7526dc"
+  },
+  "test/wikiann_en": {
+   "lang": "en",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 500,
+   "entities": {
+    "ORG": 232,
+    "PER": 218,
+    "LOC": 233
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "5fc5fe83b9c4b889"
+  },
+  "test/wikiann_es": {
+   "lang": "es",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 500,
+   "entities": {
+    "PER": 195,
+    "LOC": 252,
+    "ORG": 189
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "2ed94342cf9ec0b7"
+  },
+  "test/wikiann_et": {
+   "lang": "et",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 500,
+   "entities": {
+    "PER": 244,
+    "LOC": 269,
+    "ORG": 178
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "536a0f48cdfca1fc"
+  },
+  "test/wikiann_fi": {
+   "lang": "fi",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 500,
+   "entities": {
+    "PER": 235,
+    "LOC": 269,
+    "ORG": 207
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "529193baf44e0fbe"
+  },
+  "test/wikiann_fr": {
+   "lang": "fr",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 500,
+   "entities": {
+    "ORG": 181,
+    "LOC": 261,
+    "PER": 224
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "2af73b83461c30c6"
+  },
+  "test/wikiann_hu": {
+   "lang": "hu",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 500,
+   "entities": {
+    "PER": 206,
+    "LOC": 306,
+    "ORG": 199
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "b4e2da65ebca8042"
+  },
+  "test/wikiann_it": {
+   "lang": "it",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 500,
+   "entities": {
+    "PER": 241,
+    "ORG": 208,
+    "LOC": 242
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "e597924b18589ab7"
+  },
+  "test/wikiann_nl": {
+   "lang": "nl",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 500,
+   "entities": {
+    "PER": 240,
+    "ORG": 196,
+    "LOC": 279
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "57da1e527be4d8e6"
+  },
+  "test/wikiann_pl": {
+   "lang": "pl",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 500,
+   "entities": {
+    "LOC": 283,
+    "ORG": 185,
+    "PER": 227
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "faa6d3a00ba9ca3d"
+  },
+  "test/wikiann_pt": {
+   "lang": "pt",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 500,
+   "entities": {
+    "ORG": 170,
+    "PER": 245,
+    "LOC": 247
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "838b1f32a59af5ea"
+  },
+  "test/wikiann_ro": {
+   "lang": "ro",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 500,
+   "entities": {
+    "ORG": 194,
+    "LOC": 212,
+    "PER": 188
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "f6d702253eb9f8bc"
+  },
+  "test/wikiann_sv": {
+   "lang": "sv",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 500,
+   "entities": {
+    "PER": 238,
+    "ORG": 179,
+    "LOC": 251
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "3c3b44ffd411285d"
+  },
+  "test/wnut17_en": {
+   "lang": "en",
+   "family": "wnut17",
+   "pool": 1287,
+   "sampled": 500,
+   "entities": {
+    "LOC": 62,
+    "ORG": 75,
+    "PER": 163
+   },
+   "ignored_entities": 109,
+   "ids_sha256": "1e142c785b74642e"
+  },
+  "dev/conll2002_es": {
+   "lang": "es",
+   "family": "conll2002",
+   "pool": 1915,
+   "sampled": 300,
+   "entities": {
+    "LOC": 142,
+    "ORG": 234,
+    "PER": 172
+   },
+   "ignored_entities": 51,
+   "ids_sha256": "32c50f82deb4e87f"
+  },
+  "dev/conll2002_nl": {
+   "lang": "nl",
+   "family": "conll2002",
+   "pool": 2895,
+   "sampled": 300,
+   "entities": {
+    "PER": 68,
+    "ORG": 68,
+    "LOC": 56
+   },
+   "ignored_entities": 67,
+   "ids_sha256": "f2f33ebb63a52fc5"
+  },
+  "dev/germeval14_de": {
+   "lang": "de",
+   "family": "germeval14",
+   "pool": 2200,
+   "sampled": 300,
+   "entities": {
+    "PER": 106,
+    "LOC": 100,
+    "ORG": 64
+   },
+   "ignored_entities": 75,
+   "ids_sha256": "17d59338f6ef2f50"
+  },
+  "dev/kpwr_pl": {
+   "lang": "pl",
+   "family": "kpwr",
+   "pool": 13959,
+   "sampled": 300,
+   "entities": {
+    "PER": 84,
+    "LOC": 69,
+    "ORG": 67
+   },
+   "ignored_entities": 71,
+   "ids_sha256": "91d4c393f9fec6da"
+  },
+  "dev/multiconer2_de": {
+   "lang": "de",
+   "family": "multiconer2",
+   "pool": 512,
+   "sampled": 300,
+   "entities": {
+    "LOC": 61,
+    "PER": 175,
+    "ORG": 96
+   },
+   "ignored_entities": 163,
+   "ids_sha256": "e5ced092ab66a75c"
+  },
+  "dev/multiconer2_en": {
+   "lang": "en",
+   "family": "multiconer2",
+   "pool": 871,
+   "sampled": 300,
+   "entities": {
+    "PER": 172,
+    "LOC": 60,
+    "ORG": 71
+   },
+   "ignored_entities": 135,
+   "ids_sha256": "628605a5426951ed"
+  },
+  "dev/multiconer2_es": {
+   "lang": "es",
+   "family": "multiconer2",
+   "pool": 854,
+   "sampled": 300,
+   "entities": {
+    "PER": 164,
+    "ORG": 65,
+    "LOC": 83
+   },
+   "ignored_entities": 138,
+   "ids_sha256": "e1220add7e83c653"
+  },
+  "dev/multiconer2_fr": {
+   "lang": "fr",
+   "family": "multiconer2",
+   "pool": 857,
+   "sampled": 300,
+   "entities": {
+    "PER": 169,
+    "LOC": 88,
+    "ORG": 74
+   },
+   "ignored_entities": 163,
+   "ids_sha256": "6ec243e96f7c5d60"
+  },
+  "dev/multiconer2_it": {
+   "lang": "it",
+   "family": "multiconer2",
+   "pool": 858,
+   "sampled": 300,
+   "entities": {
+    "LOC": 89,
+    "PER": 158,
+    "ORG": 71
+   },
+   "ignored_entities": 157,
+   "ids_sha256": "631b6a760443f01f"
+  },
+  "dev/multiconer2_pt": {
+   "lang": "pt",
+   "family": "multiconer2",
+   "pool": 854,
+   "sampled": 300,
+   "entities": {
+    "ORG": 88,
+    "LOC": 84,
+    "PER": 177
+   },
+   "ignored_entities": 146,
+   "ids_sha256": "12f197bacde0cb33"
+  },
+  "dev/multiconer2_sv": {
+   "lang": "sv",
+   "family": "multiconer2",
+   "pool": 856,
+   "sampled": 300,
+   "entities": {
+    "PER": 150,
+    "ORG": 74,
+    "LOC": 123
+   },
+   "ignored_entities": 135,
+   "ids_sha256": "422350204536f74e"
+  },
+  "dev/turku_fi": {
+   "lang": "fi",
+   "family": "turku",
+   "pool": 1364,
+   "sampled": 300,
+   "entities": {
+    "PER": 54,
+    "ORG": 51,
+    "LOC": 62
+   },
+   "ignored_entities": 45,
+   "ids_sha256": "307404d2f2367e52"
+  },
+  "dev/uner_da_ddt": {
+   "lang": "da",
+   "family": "uner",
+   "pool": 564,
+   "sampled": 300,
+   "entities": {
+    "PER": 86,
+    "LOC": 56,
+    "ORG": 47
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "aca14b48865f9c68"
+  },
+  "dev/uner_en_ewt": {
+   "lang": "en",
+   "family": "uner",
+   "pool": 2001,
+   "sampled": 300,
+   "entities": {
+    "LOC": 45,
+    "ORG": 38,
+    "PER": 57
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "c9743e5bf1e1c575"
+  },
+  "dev/uner_hr_set": {
+   "lang": "hr",
+   "family": "uner",
+   "pool": 960,
+   "sampled": 300,
+   "entities": {
+    "PER": 119,
+    "ORG": 125,
+    "LOC": 151
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "b276c535db12486f"
+  },
+  "dev/uner_pt_bosque": {
+   "lang": "pt",
+   "family": "uner",
+   "pool": 1172,
+   "sampled": 300,
+   "entities": {
+    "LOC": 93,
+    "PER": 168,
+    "ORG": 107
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "936cc26a5fcb9135"
+  },
+  "dev/uner_sk_snk": {
+   "lang": "sk",
+   "family": "uner",
+   "pool": 1060,
+   "sampled": 300,
+   "entities": {
+    "PER": 95,
+    "LOC": 70,
+    "ORG": 12
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "b66b93d4781f9b08"
+  },
+  "dev/uner_sv_talbanken": {
+   "lang": "sv",
+   "family": "uner",
+   "pool": 504,
+   "sampled": 300,
+   "entities": {
+    "PER": 7,
+    "LOC": 2,
+    "ORG": 4
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "d372876ccb12244c"
+  },
+  "dev/wikiann_cs": {
+   "lang": "cs",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 300,
+   "entities": {
+    "PER": 136,
+    "ORG": 147,
+    "LOC": 135
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "96d6a31b9b6c13a3"
+  },
+  "dev/wikiann_da": {
+   "lang": "da",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 300,
+   "entities": {
+    "ORG": 126,
+    "PER": 134,
+    "LOC": 153
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "49196a0ca3aed268"
+  },
+  "dev/wikiann_de": {
+   "lang": "de",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 300,
+   "entities": {
+    "PER": 127,
+    "LOC": 153,
+    "ORG": 130
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "2f701b7036f4cf0e"
+  },
+  "dev/wikiann_en": {
+   "lang": "en",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 300,
+   "entities": {
+    "LOC": 183,
+    "ORG": 135,
+    "PER": 134
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "9e18e33811314b80"
+  },
+  "dev/wikiann_es": {
+   "lang": "es",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 300,
+   "entities": {
+    "PER": 108,
+    "LOC": 138,
+    "ORG": 115
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "71727ca79d4ac805"
+  },
+  "dev/wikiann_et": {
+   "lang": "et",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 300,
+   "entities": {
+    "ORG": 122,
+    "LOC": 214,
+    "PER": 127
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "25290c1f337479e1"
+  },
+  "dev/wikiann_fi": {
+   "lang": "fi",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 300,
+   "entities": {
+    "ORG": 127,
+    "LOC": 148,
+    "PER": 145
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "8e3cbd1c36297452"
+  },
+  "dev/wikiann_fr": {
+   "lang": "fr",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 300,
+   "entities": {
+    "ORG": 120,
+    "PER": 120,
+    "LOC": 136
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "4710ee02ba1ea102"
+  },
+  "dev/wikiann_hu": {
+   "lang": "hu",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 300,
+   "entities": {
+    "ORG": 115,
+    "PER": 153,
+    "LOC": 113
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "8cca5fbac3ad8df4"
+  },
+  "dev/wikiann_it": {
+   "lang": "it",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 300,
+   "entities": {
+    "LOC": 133,
+    "PER": 135,
+    "ORG": 135
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "c82271a1794d9355"
+  },
+  "dev/wikiann_nl": {
+   "lang": "nl",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 300,
+   "entities": {
+    "LOC": 141,
+    "PER": 134,
+    "ORG": 127
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "a62ccdde11d998b2"
+  },
+  "dev/wikiann_pl": {
+   "lang": "pl",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 300,
+   "entities": {
+    "LOC": 149,
+    "ORG": 134,
+    "PER": 142
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "ad7e301dd6e56a02"
+  },
+  "dev/wikiann_pt": {
+   "lang": "pt",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 300,
+   "entities": {
+    "ORG": 105,
+    "PER": 127,
+    "LOC": 168
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "2d89456e1418d769"
+  },
+  "dev/wikiann_ro": {
+   "lang": "ro",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 300,
+   "entities": {
+    "ORG": 109,
+    "PER": 133,
+    "LOC": 117
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "3e6c9d3f4ba20eb6"
+  },
+  "dev/wikiann_sv": {
+   "lang": "sv",
+   "family": "wikiann",
+   "pool": 10000,
+   "sampled": 300,
+   "entities": {
+    "PER": 118,
+    "LOC": 137,
+    "ORG": 133
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "9cd4a52f7bde0e73"
+  },
+  "dev/wnut17_en": {
+   "lang": "en",
+   "family": "wnut17",
+   "pool": 1009,
+   "sampled": 300,
+   "entities": {
+    "PER": 139,
+    "LOC": 25,
+    "ORG": 20
+   },
+   "ignored_entities": 58,
+   "ids_sha256": "05a3e9e158da120c"
+  },
+  "test/europii": {
+   "lang": "multi",
+   "family": "europii",
+   "pool": 2075,
+   "sampled": 2075,
+   "entities": {
+    "PER": 1775
+   }
+  },
+  "dev/europii": {
+   "lang": "multi",
+   "family": "europii",
+   "pool": 415,
+   "sampled": 415,
+   "entities": {
+    "PER": 355
+   }
+  },
+  "test/chat_prompts": {
+   "lang": "multi",
+   "family": "handwritten",
+   "sampled": 80,
+   "entities": {
+    "PER": 99,
+    "LOC": 58
+   }
+  },
+  "test/negatives": {
+   "lang": "multi",
+   "family": "handwritten",
+   "sampled": 68,
+   "entities": {
+    "PER": 0,
+    "LOC": 0
+   }
+  },
+  "test/code_stdlib": {
+   "lang": "multi",
+   "family": "handwritten",
+   "sampled": 300,
+   "entities": {
+    "PER": 0,
+    "LOC": 0
+   }
+  },
+  "test/lc_germeval14_de": {
+   "lang": "de",
+   "family": "lowercase_probe",
+   "pool": 5100,
+   "sampled": 500,
+   "entities": {
+    "PER": 176,
+    "ORG": 120,
+    "LOC": 185
+   },
+   "ignored_entities": 156,
+   "ids_sha256": "00946f19211eb85f"
+  },
+  "test/lc_turku_fi": {
+   "lang": "fi",
+   "family": "lowercase_probe",
+   "pool": 1555,
+   "sampled": 500,
+   "entities": {
+    "ORG": 67,
+    "PER": 104,
+    "LOC": 92
+   },
+   "ignored_entities": 69,
+   "ids_sha256": "bcc4b8dce8907f1d"
+  },
+  "test/lc_conll2002_es": {
+   "lang": "es",
+   "family": "lowercase_probe",
+   "pool": 1517,
+   "sampled": 500,
+   "entities": {
+    "LOC": 367,
+    "PER": 273,
+    "ORG": 473
+   },
+   "ignored_entities": 113,
+   "ids_sha256": "385b74dceb161f7d"
+  },
+  "test/lc_uner_en_ewt": {
+   "lang": "en",
+   "family": "lowercase_probe",
+   "pool": 2077,
+   "sampled": 500,
+   "entities": {
+    "LOC": 66,
+    "PER": 105,
+    "ORG": 74
+   },
+   "ignored_entities": 0,
+   "ids_sha256": "451dff6d39da2b74"
+  },
+  "test/lc_kpwr_pl": {
+   "lang": "pl",
+   "family": "lowercase_probe",
+   "pool": 4323,
+   "sampled": 500,
+   "entities": {
+    "ORG": 129,
+    "LOC": 145,
+    "PER": 106
+   },
+   "ignored_entities": 170,
+   "ids_sha256": "de541b7429a7397d"
+  }
+ },
+ "licences": {
+  "uner": "CC BY-SA 4.0 (Universal NER v1, Mayhew et al. 2024; gold, on UD treebanks)",
+  "turku": "CC BY-SA 4.0 (LICENSE file in TurkuNLP/turku-ner-corpus v1.0; HF mirror card says CC BY-NC-SA 4.0)",
+  "conll2002": "No explicit licence; distributed freely for research by the CoNLL-2002 shared task (EFE / De Morgen newswire)",
+  "germeval14": "CC BY 4.0",
+  "kpwr": "CC BY 3.0 (clarin-pl/kpwr-ner, n82 tagset)",
+  "multiconer2": "CC BY 4.0 (MultiCoNER II, SemEval-2023 Task 2; lower-cased, short, complex entities)",
+  "wikiann": "Unclear/unknown (WikiANN / PAN-X; silver labels derived from Wikipedia links)",
+  "wnut17": "CC BY 4.0 (WNUT-17 emerging entities; social-media English)",
+  "code_stdlib": "Python Software Foundation License (CPython standard library source, code only)",
+  "handwritten": "Written for this study (Apache-2.0 with the repository)",
+  "europii": "CC BY 4.0 (sinceaihq/europii-bench; synthetic, template-based)"
+ }
+}

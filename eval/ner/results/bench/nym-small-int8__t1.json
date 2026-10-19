@@ -1,0 +1,25 @@
+{
+ "model": "nym-small-int8",
+ "threads": 1,
+ "tokens_in_chunk": 128,
+ "chunk_chars": 554,
+ "latency_ms_median": 170.83423800795572,
+ "latency_ms_p90": 224.46484700776637,
+ "latency_ms_min": 137.43333300226368,
+ "runs": 20,
+ "load_seconds": 3.245591640472412,
+ "peak_rss_mb": 590.19921875,
+ "rss_after_imports_mb": 29.94140625,
+ "rss_delta_mb": 560.2578125,
+ "onnx_mb": 138.730982,
+ "tokenizer_mb": 12.389891,
+ "download_mb": 151.126561,
+ "files": [
+  "int8/tokenizer.json",
+  "int8/model_int8.onnx",
+  "int8/config.json"
+ ],
+ "revision": "4348999cd3c2e20c49615e9af7c6bbb45b64cd85",
+ "loadavg_1m_at_end": 30.3154296875,
+ "cpu": "AMD EPYC-Rome Processor"
+}

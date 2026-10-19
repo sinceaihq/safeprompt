@@ -1,0 +1,25 @@
+{
+ "model": "davlan-xlmr-hrl-int8",
+ "threads": 4,
+ "tokens_in_chunk": 128,
+ "chunk_chars": 547,
+ "latency_ms_median": 139.46245499391807,
+ "latency_ms_p90": 160.21663199353497,
+ "latency_ms_min": 120.94441799854394,
+ "runs": 20,
+ "load_seconds": 2.016045093536377,
+ "peak_rss_mb": 654.61328125,
+ "rss_after_imports_mb": 30.1328125,
+ "rss_delta_mb": 624.48046875,
+ "onnx_mb": 278.294552,
+ "tokenizer_mb": 17.098273,
+ "download_mb": 295.393907,
+ "files": [
+  "tokenizer.json",
+  "onnx/model_quantized.onnx",
+  "config.json"
+ ],
+ "revision": "c460d3b8fedc898fed4e6f4b879cb67ad4fb04f9",
+ "loadavg_1m_at_end": 19.06494140625,
+ "cpu": "AMD EPYC-Rome Processor"
+}

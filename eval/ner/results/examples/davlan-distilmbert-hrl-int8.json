@@ -1,0 +1,200 @@
+{
+ "model": "davlan-distilmbert-hrl-int8",
+ "thresholds": {
+  "PER": 0.5,
+  "LOC": 0.5,
+  "ORG": 0.45
+ },
+ "sets": {
+  "chat_prompts": {
+   "false_negatives": [
+    {
+     "type": "PER",
+     "text": "can you write a polite reminder to ⟦sarah o'connell⟧ that her invoice is overdue? she lives in cork if that matt…",
+     "predicted_instead": []
+    },
+    {
+     "type": "LOC",
+     "text": "…o sarah o'connell that her invoice is overdue? she lives in ⟦cork⟧ if that matters",
+     "predicted_instead": []
+    },
+    {
+     "type": "PER",
+     "text": "rewrite this in a friendlier tone: hi ⟦jake⟧, per my last email the contract still isn't signed. regards…",
+     "predicted_instead": []
+    },
+    {
+     "type": "PER",
+     "text": "…per my last email the contract still isn't signed. regards, ⟦anna⟧",
+     "predicted_instead": []
+    },
+    {
+     "type": "PER",
+     "text": "kannst du die mail an ⟦jürgen schäfer⟧ umformulieren? er sitzt in stuttgart und ist sauer wegen de…",
+     "predicted_instead": []
+    },
+    {
+     "type": "LOC",
+     "text": "…st du die mail an jürgen schäfer umformulieren? er sitzt in ⟦stuttgart⟧ und ist sauer wegen der lieferung",
+     "predicted_instead": []
+    },
+    {
+     "type": "PER",
+     "text": "Mein Sohn ⟦Finn⟧ hat ADHS, seine Lehrerin Frau Özdemir will ein Gespräch. Wi…",
+     "predicted_instead": []
+    },
+    {
+     "type": "PER",
+     "text": "résume ce message : ⟦pierre⟧ ne viendra pas, camille dubois prend le relais pour le chan…",
+     "predicted_instead": []
+    }
+   ],
+   "false_positives": [
+    {
+     "type": "PER",
+     "score": 0.99,
+     "text": "Correggi: ⟦Gentile⟧ dott.ssa Romano, allego i referti di mio padre."
+    },
+    {
+     "type": "PER",
+     "score": 0.51,
+     "text": "Ilona ja Eetu Laine menevät naimisiin ⟦Turussa⟧, kirjoita bestmanin puhe."
+    },
+    {
+     "type": "LOC",
+     "score": 0.96,
+     "text": "⟦Rätta⟧: Hej Sten, här kommer fakturan för renoveringen på Storgata…"
+    },
+    {
+     "type": "LOC",
+     "score": 0.96,
+     "text": "Corrige: Cara ⟦Dra⟧. Martins, envio em anexo as análises do meu pai."
+    },
+    {
+     "type": "LOC",
+     "score": 0.97,
+     "text": "Corrige: Cara Dra. ⟦Martins⟧, envio em anexo as análises do meu pai."
+    }
+   ],
+   "n_fn": 38,
+   "n_fp": 5
+  },
+  "negatives": {
+   "false_negatives": [],
+   "false_positives": [
+    {
+     "type": "PER",
+     "score": 0.92,
+     "text": "TypeError: ⟦Cannot⟧ read properties of undefined (reading 'map') at CartSummary…"
+    }
+   ],
+   "n_fn": 0,
+   "n_fp": 1
+  },
+  "europii": {
+   "false_negatives": [
+    {
+     "type": "PER",
+     "text": "Hi, this is ⟦Ciarán Ryan⟧. My order 716160563121 from 25/03/2026 has not arrived. You…",
+     "predicted_instead": [
+      "Ciarán Ryan:ORG"
+     ]
+    },
+    {
+     "type": "PER",
+     "text": "Hi, this is ⟦Ciarán Walsh⟧. My order 48208966329 from 08/07/2025 has not arrived. You …",
+     "predicted_instead": [
+      "Ciarán Walsh:ORG"
+     ]
+    },
+    {
+     "type": "PER",
+     "text": "Hi, this is ⟦Conor Ryan⟧. My order 861210272932 from 10/01/2025 has not arrived. You…",
+     "predicted_instead": [
+      "Conor Ryan:ORG"
+     ]
+    },
+    {
+     "type": "PER",
+     "text": "Hi, this is ⟦Ciarán O'Brien⟧. My order 77232694232 from 11/12/2025 has not arrived. You …",
+     "predicted_instead": [
+      "Ciarán O'Brien:ORG"
+     ]
+    },
+    {
+     "type": "PER",
+     "text": "Supplier ⟦Aoife O'Sullivan⟧ Ltd, VAT number IE3512681J, phone +353 85 082 3569. Item EA…",
+     "predicted_instead": [
+      "Aoife O'Sullivan Ltd:ORG"
+     ]
+    },
+    {
+     "type": "PER",
+     "text": "Supplier ⟦Emma O'Sullivan⟧ Ltd, VAT number IE3933483E, phone +353 85 073 6948. Item EA…",
+     "predicted_instead": [
+      "Emma O'Sullivan Ltd:ORG"
+     ]
+    },
+    {
+     "type": "PER",
+     "text": "Supplier ⟦Liam Walsh⟧ Ltd, VAT number IE3907301U, phone +353 85 088 0190. Item EA…",
+     "predicted_instead": [
+      "Liam Walsh Ltd:ORG"
+     ]
+    },
+    {
+     "type": "PER",
+     "text": "Supplier ⟦Patrick O'Sullivan⟧ Ltd, VAT number IE1080559Q, phone +353 85 081 7109. Item EA…",
+     "predicted_instead": [
+      "Patrick O'Sullivan Ltd:ORG"
+     ]
+    }
+   ],
+   "false_positives": [
+    {
+     "type": "LOC",
+     "score": 0.55,
+     "text": "Hi, this is Ciarán ⟦Murphy⟧. My order 083825440 from 09/05/2025 has not arrived. You ca…"
+    },
+    {
+     "type": "PER",
+     "score": 0.98,
+     "text": "⟦Hallo⟧, met Joost Bakker. Mijn bestelling 940664636803 van 05-03-2…"
+    },
+    {
+     "type": "PER",
+     "score": 1.0,
+     "text": "⟦Hallo⟧, met Lotte Visser. Mijn bestelling 36250111 van 19-01-2025 …"
+    },
+    {
+     "type": "PER",
+     "score": 0.99,
+     "text": "⟦Hallo⟧, met Joost Smit. Mijn bestelling 343815986 van 08-07-2026 i…"
+    },
+    {
+     "type": "PER",
+     "score": 1.0,
+     "text": "⟦Hallo⟧, met Emma Bakker. Mijn bestelling 48246046 van 12-08-2025 i…"
+    },
+    {
+     "type": "PER",
+     "score": 0.79,
+     "text": "⟦Hallo⟧, met Joost Meijer. Mijn bestelling 8404910238 van 10-11-202…"
+    },
+    {
+     "type": "PER",
+     "score": 1.0,
+     "text": "⟦Hallo⟧, met Sem de Vries. Mijn bestelling 13881041 van 30-07-2025 …"
+    },
+    {
+     "type": "PER",
+     "score": 1.0,
+     "text": "⟦Hallo⟧, met Emma van den Berg. Mijn bestelling 9044244729 van 31-1…"
+    }
+   ],
+   "n_fn": 123,
+   "n_fp": 59
+  }
+ },
+ "note": "Only examples from text written for this study or synthetic EuroPII data are kept here; snippets from third-party corpora are not redistributed (regenerate them with the scripts)."
+}

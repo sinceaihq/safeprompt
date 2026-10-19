@@ -1,0 +1,342 @@
+{
+ "model": "davlan-xlmr-hrl-int8",
+ "repo": "tjruesch/xlm-roberta-base-ner-hrl-onnx",
+ "onnx": "onnx/model_quantized.onnx",
+ "kind": "tc",
+ "licence": "AFL-3.0 (Davlan original; ONNX port tagged MIT)",
+ "notes": "XLM-R base, same data",
+ "revision": "c460d3b8fedc898fed4e6f4b879cb67ad4fb04f9",
+ "onnx_bytes": 278294552,
+ "download_bytes": 295393907,
+ "files": [
+  "tokenizer.json",
+  "onnx/model_quantized.onnx",
+  "config.json"
+ ],
+ "load_seconds": 2.4752631187438965,
+ "threads": 6,
+ "sets": {
+  "dev/conll2002_es": {
+   "n": 300,
+   "seconds": 9.05
+  },
+  "dev/conll2002_nl": {
+   "n": 300,
+   "seconds": 5.2
+  },
+  "dev/europii": {
+   "n": 415,
+   "seconds": 12.83
+  },
+  "dev/germeval14_de": {
+   "n": 300,
+   "seconds": 6.66
+  },
+  "dev/kpwr_pl": {
+   "n": 300,
+   "seconds": 7.46
+  },
+  "dev/multiconer2_de": {
+   "n": 300,
+   "seconds": 6.16
+  },
+  "dev/multiconer2_en": {
+   "n": 300,
+   "seconds": 5.6
+  },
+  "dev/multiconer2_es": {
+   "n": 300,
+   "seconds": 5.99
+  },
+  "dev/multiconer2_fr": {
+   "n": 300,
+   "seconds": 6.56
+  },
+  "dev/multiconer2_it": {
+   "n": 300,
+   "seconds": 6.49
+  },
+  "dev/multiconer2_pt": {
+   "n": 300,
+   "seconds": 6.8
+  },
+  "dev/multiconer2_sv": {
+   "n": 300,
+   "seconds": 6.5
+  },
+  "dev/turku_fi": {
+   "n": 300,
+   "seconds": 6.77
+  },
+  "dev/uner_da_ddt": {
+   "n": 300,
+   "seconds": 7.14
+  },
+  "dev/uner_en_ewt": {
+   "n": 300,
+   "seconds": 5.29
+  },
+  "dev/uner_hr_set": {
+   "n": 300,
+   "seconds": 9.44
+  },
+  "dev/uner_pt_bosque": {
+   "n": 300,
+   "seconds": 8.97
+  },
+  "dev/uner_sk_snk": {
+   "n": 300,
+   "seconds": 6.18
+  },
+  "dev/uner_sv_talbanken": {
+   "n": 300,
+   "seconds": 8.09
+  },
+  "dev/wikiann_cs": {
+   "n": 300,
+   "seconds": 4.56
+  },
+  "dev/wikiann_da": {
+   "n": 300,
+   "seconds": 4.41
+  },
+  "dev/wikiann_de": {
+   "n": 300,
+   "seconds": 5.05
+  },
+  "dev/wikiann_en": {
+   "n": 300,
+   "seconds": 4.75
+  },
+  "dev/wikiann_es": {
+   "n": 300,
+   "seconds": 3.81
+  },
+  "dev/wikiann_et": {
+   "n": 300,
+   "seconds": 5.12
+  },
+  "dev/wikiann_fi": {
+   "n": 300,
+   "seconds": 4.14
+  },
+  "dev/wikiann_fr": {
+   "n": 300,
+   "seconds": 3.76
+  },
+  "dev/wikiann_hu": {
+   "n": 300,
+   "seconds": 4.39
+  },
+  "dev/wikiann_it": {
+   "n": 300,
+   "seconds": 3.72
+  },
+  "dev/wikiann_nl": {
+   "n": 300,
+   "seconds": 4.01
+  },
+  "dev/wikiann_pl": {
+   "n": 300,
+   "seconds": 4.2
+  },
+  "dev/wikiann_pt": {
+   "n": 300,
+   "seconds": 3.27
+  },
+  "dev/wikiann_ro": {
+   "n": 300,
+   "seconds": 3.83
+  },
+  "dev/wikiann_sv": {
+   "n": 300,
+   "seconds": 4.16
+  },
+  "dev/wnut17_en": {
+   "n": 300,
+   "seconds": 5.24
+  },
+  "test/chat_prompts": {
+   "n": 80,
+   "seconds": 1.54
+  },
+  "test/code_stdlib": {
+   "n": 300,
+   "seconds": 73.71
+  },
+  "test/conll2002_es": {
+   "n": 500,
+   "seconds": 15.4
+  },
+  "test/conll2002_nl": {
+   "n": 500,
+   "seconds": 7.89
+  },
+  "test/europii": {
+   "n": 2075,
+   "seconds": 57.02
+  },
+  "test/germeval14_de": {
+   "n": 500,
+   "seconds": 10.69
+  },
+  "test/kpwr_pl": {
+   "n": 500,
+   "seconds": 11.36
+  },
+  "test/lc_conll2002_es": {
+   "n": 500,
+   "seconds": 15.14
+  },
+  "test/lc_germeval14_de": {
+   "n": 500,
+   "seconds": 12.45
+  },
+  "test/lc_kpwr_pl": {
+   "n": 500,
+   "seconds": 12.95
+  },
+  "test/lc_turku_fi": {
+   "n": 500,
+   "seconds": 10.88
+  },
+  "test/lc_uner_en_ewt": {
+   "n": 500,
+   "seconds": 7.91
+  },
+  "test/multiconer2_de": {
+   "n": 500,
+   "seconds": 10.05
+  },
+  "test/multiconer2_en": {
+   "n": 500,
+   "seconds": 9.37
+  },
+  "test/multiconer2_es": {
+   "n": 500,
+   "seconds": 10.36
+  },
+  "test/multiconer2_fr": {
+   "n": 500,
+   "seconds": 11.24
+  },
+  "test/multiconer2_it": {
+   "n": 500,
+   "seconds": 10.78
+  },
+  "test/multiconer2_pt": {
+   "n": 500,
+   "seconds": 11.38
+  },
+  "test/multiconer2_sv": {
+   "n": 500,
+   "seconds": 10.11
+  },
+  "test/negatives": {
+   "n": 68,
+   "seconds": 2.05
+  },
+  "test/turku_fi": {
+   "n": 500,
+   "seconds": 11.09
+  },
+  "test/uner_da_ddt": {
+   "n": 500,
+   "seconds": 11.2
+  },
+  "test/uner_de_pud": {
+   "n": 500,
+   "seconds": 12.84
+  },
+  "test/uner_en_ewt": {
+   "n": 500,
+   "seconds": 8.22
+  },
+  "test/uner_hr_set": {
+   "n": 500,
+   "seconds": 13.53
+  },
+  "test/uner_pt_bosque": {
+   "n": 500,
+   "seconds": 12.78
+  },
+  "test/uner_sk_snk": {
+   "n": 500,
+   "seconds": 10.15
+  },
+  "test/uner_sv_pud": {
+   "n": 500,
+   "seconds": 14.29
+  },
+  "test/uner_sv_talbanken": {
+   "n": 500,
+   "seconds": 12.64
+  },
+  "test/wikiann_cs": {
+   "n": 500,
+   "seconds": 8.47
+  },
+  "test/wikiann_da": {
+   "n": 500,
+   "seconds": 7.52
+  },
+  "test/wikiann_de": {
+   "n": 500,
+   "seconds": 7.48
+  },
+  "test/wikiann_en": {
+   "n": 500,
+   "seconds": 5.99
+  },
+  "test/wikiann_es": {
+   "n": 500,
+   "seconds": 6.07
+  },
+  "test/wikiann_et": {
+   "n": 500,
+   "seconds": 7.4
+  },
+  "test/wikiann_fi": {
+   "n": 500,
+   "seconds": 8.39
+  },
+  "test/wikiann_fr": {
+   "n": 500,
+   "seconds": 6.73
+  },
+  "test/wikiann_hu": {
+   "n": 500,
+   "seconds": 8.32
+  },
+  "test/wikiann_it": {
+   "n": 500,
+   "seconds": 7.08
+  },
+  "test/wikiann_nl": {
+   "n": 500,
+   "seconds": 7.28
+  },
+  "test/wikiann_pl": {
+   "n": 500,
+   "seconds": 8.21
+  },
+  "test/wikiann_pt": {
+   "n": 500,
+   "seconds": 6.52
+  },
+  "test/wikiann_ro": {
+   "n": 500,
+   "seconds": 7.02
+  },
+  "test/wikiann_sv": {
+   "n": 500,
+   "seconds": 7.64
+  },
+  "test/wnut17_en": {
+   "n": 500,
+   "seconds": 13.27
+  }
+ },
+ "total_seconds": 76.2,
+ "peak_rss_mb_process": 1127.78125
+}

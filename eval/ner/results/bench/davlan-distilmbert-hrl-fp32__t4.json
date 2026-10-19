@@ -1,0 +1,25 @@
+{
+ "model": "davlan-distilmbert-hrl-fp32",
+ "threads": 4,
+ "tokens_in_chunk": 127,
+ "chunk_chars": 515,
+ "latency_ms_median": 104.70435049501248,
+ "latency_ms_p90": 126.20916400919668,
+ "latency_ms_min": 71.35672500589862,
+ "runs": 20,
+ "load_seconds": 1.681427240371704,
+ "peak_rss_mb": 952.49609375,
+ "rss_after_imports_mb": 30.0859375,
+ "rss_delta_mb": 922.41015625,
+ "onnx_mb": 539.099157,
+ "tokenizer_mb": 2.919362,
+ "download_mb": 542.019446,
+ "files": [
+  "tokenizer.json",
+  "onnx/model.onnx",
+  "config.json"
+ ],
+ "revision": "c2a4dbf593c57f47004c5bc2d3770d311aee9c43",
+ "loadavg_1m_at_end": 16.853515625,
+ "cpu": "AMD EPYC-Rome Processor"
+}

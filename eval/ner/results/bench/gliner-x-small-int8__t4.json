@@ -1,0 +1,29 @@
+{
+ "model": "gliner-x-small-int8",
+ "threads": 4,
+ "tokens_in_chunk": 128,
+ "chunk_chars": 490,
+ "latency_ms_median": 149.2056969946134,
+ "latency_ms_p90": 162.14688199397642,
+ "latency_ms_min": 129.98793699080124,
+ "runs": 20,
+ "load_seconds": 9.137863397598267,
+ "peak_rss_mb": 1052.921875,
+ "rss_after_imports_mb": 30.125,
+ "rss_delta_mb": 1022.796875,
+ "onnx_mb": 172.716978,
+ "tokenizer_mb": 16.33505,
+ "download_mb": 193.385434,
+ "files": [
+  "tokenizer.json",
+  "onnx/model_quantized.onnx",
+  "added_tokens.json",
+  "gliner_config.json",
+  "special_tokens_map.json",
+  "spiece.model",
+  "tokenizer_config.json"
+ ],
+ "revision": "d51a0984d11084a55f9df3899d9dbf7704f580f5",
+ "loadavg_1m_at_end": 25.43115234375,
+ "cpu": "AMD EPYC-Rome Processor"
+}

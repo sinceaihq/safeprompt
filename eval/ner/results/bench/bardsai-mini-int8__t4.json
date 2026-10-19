@@ -1,0 +1,25 @@
+{
+ "model": "bardsai-mini-int8",
+ "threads": 4,
+ "tokens_in_chunk": 128,
+ "chunk_chars": 547,
+ "latency_ms_median": 45.137196000723634,
+ "latency_ms_p90": 63.78073499945458,
+ "latency_ms_min": 23.42440199572593,
+ "runs": 20,
+ "load_seconds": 1.7979862689971924,
+ "peak_rss_mb": 489.015625,
+ "rss_after_imports_mb": 30.0859375,
+ "rss_delta_mb": 458.9296875,
+ "onnx_mb": 107.199657,
+ "tokenizer_mb": 17.082832,
+ "download_mb": 124.287306,
+ "files": [
+  "onnx/tokenizer.json",
+  "onnx/model_quantized.onnx",
+  "onnx/config.json"
+ ],
+ "revision": "9638cccabfad3df3da984767303e12562a2fece4",
+ "loadavg_1m_at_end": 27.75244140625,
+ "cpu": "AMD EPYC-Rome Processor"
+}
