@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SafePrompt — check AI prompts for personal data</title>
+    <meta
+      name="description"
+      content="Free, open-source browser extension that finds personal data and secrets in AI prompts before you send them. European IDs checked by checksum. Runs on your device."
+    />
+    <link rel="icon" href="icons/icon-32.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="panel.css" />
+    <style>
+      .hero {
+        display: grid;
+        gap: 8px;
+        padding-top: 18px;
+      }
+      .hero h1 {
+        font-size: clamp(24px, 5vw, 34px);
+        letter-spacing: -0.01em;
+      }
+      .hero p {
+        margin: 0;
+        font-size: 17px;
+        max-width: 62ch;
+      }
+      .cta {
+        margin-top: 6px;
+      }
+      .cta a.button {
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 8px;
+        padding: 8px 14px;
+        border: 1px solid var(--line);
+        color: var(--text);
+        background: var(--surface);
+      }
+      .cta a.primary {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: var(--accent-text);
+        font-weight: 600;
+      }
+      .card {
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 16px;
+        background: var(--bg);
+        display: grid;
+        gap: 10px;
+      }
+      .facts {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 12px;
+      }
+      .facts div {
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 12px;
+        background: var(--surface);
+      }
+      .facts h3 {
+        font-size: 15px;
+        margin-bottom: 4px;
+      }
+      .facts p {
+        margin: 0;
+        font-size: 14px;
+        color: var(--muted);
+      }
+      .examples button {
+        font-size: 13.5px;
+      }
+      footer.site {
+        font-size: 13px;
+        color: var(--muted);
+        border-top: 1px solid var(--line);
+        padding-top: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="app">
+      <header class="hero">
+        <div class="brand">
+          <img src="icons/icon-128.png" alt="" width="40" height="40" />
+          <strong>SafePrompt</strong>
+        </div>
+        <h1>Check your AI prompt for personal data before you send it.</h1>
+        <p>
+          SafePrompt finds national IDs, bank accounts, cards, contact details and secret keys in text, lets you choose
+          what to replace, and gives you a safe version to send. It runs on your device: no account, no server.
+        </p>
+        <div class="row cta">
+          <a class="button primary" href="https://github.com/sinceaihq/safeprompt/releases/latest"
+            >Get the browser extension</a
+          >
+          <a class="button" href="https://github.com/sinceaihq/safeprompt">Source code</a>
+        </div>
+      </header>
+
+      <section class="card" aria-labelledby="try">
+        <h2 id="try">Try it here</h2>
+        <div id="workspace"><p class="muted">Loading…</p></div>
+      </section>
+
+      <section class="facts" aria-label="Why SafePrompt">
+        <div>
+          <h3>European identifiers, validated</h3>
+          <p>
+            National IDs of 22 countries, EU VAT numbers and IBANs are checked with their official check-digit rules, so
+            order and invoice numbers are not flagged.
+          </p>
+        </div>
+        <div>
+          <h3>Stays on your device</h3>
+          <p>
+            Detection runs in the browser. The extension has no server, makes no network requests and never sends a
+            message for you.
+          </p>
+        </div>
+        <div>
+          <h3>Placeholders you can undo</h3>
+          <p>
+            Values become &lt;EMAIL_1&gt;, &lt;IBAN_1&gt;… so the AI can still follow your text. Paste its answer back
+            to restore the originals locally.
+          </p>
+        </div>
+        <div>
+          <h3>Honest about limits</h3>
+          <p>
+            Names and free-text details are often not detected, and no tool finds everything. SafePrompt helps you
+            notice; it does not make anything anonymous or GDPR-compliant.
+          </p>
+        </div>
+      </section>
+
+      <footer class="site">
+        Made by <a href="https://sinceai.ai">Since AI</a>, a non-profit association in Finland. Apache-2.0. Detection
+        engine ported from <a href="https://github.com/sinceaihq/europii-guard">EuroPII Guard</a>. This page loads no
+        third-party scripts and does not log what you type.
+      </footer>
+    </main>
+    <script src="demo.js" type="module"></script>
+  </body>
+</html>

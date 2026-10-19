@@ -1,0 +1,13 @@
+# Synthetic benchmark data and tests contain fake credentials in real token
+# formats (marked EXAMPLE/FAKE in the benchmark). They are not secrets.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "synthetic test data"
+paths = [
+  '''eval/bench/data/.*\.jsonl$''',
+  '''eval/bench/results/pred/.*\.jsonl$''',
+  '''tests/unit/.*\.test\.ts$''',
+  '''tests/fixtures/.*''',
+]

@@ -1,0 +1,30 @@
+name: False alarm or missed value
+description: SafePrompt flagged something harmless, or missed something sensitive
+labels: [detection]
+body:
+  - type: markdown
+    attributes:
+      value: "**Never paste real personal data or real credentials.** Replace values with synthetic look-alikes that have the same format (same length, separators and label)."
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What happened
+      options: [False alarm (harmless value flagged), Missed value (sensitive value not flagged), Wrong type]
+    validations: { required: true }
+  - type: textarea
+    id: example
+    attributes:
+      label: Synthetic example
+      description: The surrounding text with the value replaced by a look-alike. Say which part is the value.
+      render: text
+    validations: { required: true }
+  - type: input
+    id: kind-of-data
+    attributes:
+      label: Kind of data
+      placeholder: e.g. Polish PESEL in a CSV column, Slack token in a log line
+  - type: input
+    id: version
+    attributes:
+      label: SafePrompt version and settings
+      placeholder: e.g. 0.1.0, Balanced, countries FI+SE

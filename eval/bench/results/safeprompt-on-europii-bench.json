@@ -1,0 +1,114 @@
+{
+  "data": "tests/fixtures/europii-bench-test.jsonl.gz",
+  "documents": 2075,
+  "threshold": 0.5,
+  "countries": null,
+  "overall": {
+    "precision": 97.2,
+    "recall": 96.8,
+    "f1": 97,
+    "exact_span": 96.8,
+    "values_fully_hidden": 97.4,
+    "gold": 3875,
+    "tp": 3750,
+    "fp": 108,
+    "fn": 125
+  },
+  "per_label": {
+    "EMAIL": {
+      "precision": 100,
+      "recall": 100,
+      "f1": 100,
+      "exact_span": 100,
+      "values_fully_hidden": 100,
+      "gold": 900,
+      "fp": 0,
+      "fn": 0
+    },
+    "PHONE": {
+      "precision": 90.2,
+      "recall": 100,
+      "f1": 94.8,
+      "exact_span": 100,
+      "values_fully_hidden": 100,
+      "gold": 900,
+      "fp": 98,
+      "fn": 0
+    },
+    "IBAN": {
+      "precision": 100,
+      "recall": 100,
+      "f1": 100,
+      "exact_span": 100,
+      "values_fully_hidden": 100,
+      "gold": 300,
+      "fp": 0,
+      "fn": 0
+    },
+    "PAYMENT_CARD": {
+      "precision": 100,
+      "recall": 100,
+      "f1": 100,
+      "exact_span": 100,
+      "values_fully_hidden": 100,
+      "gold": 300,
+      "fp": 0,
+      "fn": 0
+    },
+    "IP_ADDRESS": {
+      "precision": 100,
+      "recall": 100,
+      "f1": 100,
+      "exact_span": 100,
+      "values_fully_hidden": 100,
+      "gold": 300,
+      "fp": 0,
+      "fn": 0
+    },
+    "VAT_ID": {
+      "precision": 100,
+      "recall": 100,
+      "f1": 100,
+      "exact_span": 100,
+      "values_fully_hidden": 100,
+      "gold": 300,
+      "fp": 0,
+      "fn": 0
+    },
+    "NATIONAL_ID": {
+      "precision": 98.7,
+      "recall": 85.7,
+      "f1": 91.7,
+      "exact_span": 85.7,
+      "values_fully_hidden": 88.5,
+      "gold": 875,
+      "fp": 10,
+      "fn": 125
+    },
+    "SECRET": {
+      "precision": 100,
+      "recall": 100,
+      "f1": 100,
+      "exact_span": 0,
+      "values_fully_hidden": 0,
+      "gold": 0,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "per_format": {
+    "all": {
+      "precision": 97.2,
+      "recall": 96.8,
+      "f1": 97,
+      "gold": 3875,
+      "fp": 108,
+      "fn": 125
+    }
+  },
+  "negative_documents": 0,
+  "negative_documents_flagged": 0,
+  "false_positives_per_10k_chars": 4.32,
+  "ms_per_document": 0.47,
+  "ms_per_10k_chars": 38.98
+}

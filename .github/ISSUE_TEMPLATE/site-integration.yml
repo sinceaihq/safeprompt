@@ -1,0 +1,23 @@
+name: Chat site problem
+description: The paste or send check does not work on a chat site
+labels: [site-integration]
+body:
+  - type: input
+    id: site
+    attributes: { label: Site, placeholder: e.g. chatgpt.com }
+    validations: { required: true }
+  - type: dropdown
+    id: badge
+    attributes:
+      label: What does the SafePrompt toolbar badge show on that page?
+      options: [Green ✓, Orange !, Nothing]
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes:
+      label: What you did and what happened
+      description: Use synthetic text only.
+    validations: { required: true }
+  - type: input
+    id: browser
+    attributes: { label: Browser and version, placeholder: e.g. Chrome 141 }

@@ -1,0 +1,24 @@
+SafePrompt
+Copyright 2026 Since AI ry
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The detection engine is a TypeScript port of EuroPII Guard
+(https://github.com/sinceaihq/europii-guard, Apache-2.0, Since AI ry).
+
+Bundled in the extension and the web demo:
+
+- libphonenumber-js (https://gitlab.com/catamphetamine/libphonenumber-js),
+  MIT License, Copyright (c) 2016 @catamphetamine. It contains phone number
+  metadata derived from Google's libphonenumber
+  (https://github.com/google/libphonenumber), Apache License 2.0.
+
+Used only for testing, not distributed with the extension:
+
+- python-stdnum (https://arthurdejong.org/python-stdnum/), LGPL-2.1-or-later,
+  as the reference ("oracle") for the validator parity tests. No code from
+  python-stdnum is included in SafePrompt.
+- ProseMirror (MIT) and Quill (BSD-3-Clause) to build the replica chat pages
+  for end-to-end tests.
+
+IBAN BBAN layouts are taken from the SWIFT IBAN Registry.

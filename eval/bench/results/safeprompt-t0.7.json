@@ -1,0 +1,202 @@
+{
+  "data": "eval/bench/data/test.jsonl",
+  "documents": 1500,
+  "threshold": 0.7,
+  "countries": null,
+  "overall": {
+    "precision": 100,
+    "recall": 90.4,
+    "f1": 94.9,
+    "exact_span": 90.4,
+    "values_fully_hidden": 90.4,
+    "gold": 5597,
+    "tp": 5059,
+    "fp": 1,
+    "fn": 538
+  },
+  "per_label": {
+    "EMAIL": {
+      "precision": 100,
+      "recall": 100,
+      "f1": 100,
+      "exact_span": 100,
+      "values_fully_hidden": 100,
+      "gold": 1432,
+      "fp": 0,
+      "fn": 0
+    },
+    "PHONE": {
+      "precision": 100,
+      "recall": 91,
+      "f1": 95.3,
+      "exact_span": 91,
+      "values_fully_hidden": 91,
+      "gold": 879,
+      "fp": 0,
+      "fn": 79
+    },
+    "IBAN": {
+      "precision": 100,
+      "recall": 100,
+      "f1": 100,
+      "exact_span": 100,
+      "values_fully_hidden": 100,
+      "gold": 1064,
+      "fp": 0,
+      "fn": 0
+    },
+    "PAYMENT_CARD": {
+      "precision": 100,
+      "recall": 100,
+      "f1": 100,
+      "exact_span": 100,
+      "values_fully_hidden": 100,
+      "gold": 67,
+      "fp": 0,
+      "fn": 0
+    },
+    "IP_ADDRESS": {
+      "precision": 100,
+      "recall": 0,
+      "f1": 0,
+      "exact_span": 0,
+      "values_fully_hidden": 0,
+      "gold": 189,
+      "fp": 0,
+      "fn": 189
+    },
+    "VAT_ID": {
+      "precision": 100,
+      "recall": 98.6,
+      "f1": 99.3,
+      "exact_span": 98.6,
+      "values_fully_hidden": 98.6,
+      "gold": 71,
+      "fp": 0,
+      "fn": 1
+    },
+    "NATIONAL_ID": {
+      "precision": 99.9,
+      "recall": 87.2,
+      "f1": 93.1,
+      "exact_span": 87.2,
+      "values_fully_hidden": 87.2,
+      "gold": 1064,
+      "fp": 1,
+      "fn": 136
+    },
+    "SECRET": {
+      "precision": 100,
+      "recall": 84,
+      "f1": 91.3,
+      "exact_span": 84,
+      "values_fully_hidden": 84,
+      "gold": 831,
+      "fp": 0,
+      "fn": 133
+    }
+  },
+  "per_format": {
+    "business": {
+      "precision": 100,
+      "recall": 100,
+      "f1": 100,
+      "gold": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "chat": {
+      "precision": 100,
+      "recall": 71.8,
+      "f1": 83.6,
+      "gold": 620,
+      "fp": 0,
+      "fn": 175
+    },
+    "code": {
+      "precision": 100,
+      "recall": 48.1,
+      "f1": 65,
+      "gold": 106,
+      "fp": 0,
+      "fn": 55
+    },
+    "csv": {
+      "precision": 100,
+      "recall": 98.6,
+      "f1": 99.3,
+      "gold": 1596,
+      "fp": 0,
+      "fn": 22
+    },
+    "curl": {
+      "precision": 100,
+      "recall": 100,
+      "f1": 100,
+      "gold": 206,
+      "fp": 0,
+      "fn": 0
+    },
+    "email": {
+      "precision": 100,
+      "recall": 99.9,
+      "f1": 99.9,
+      "gold": 874,
+      "fp": 0,
+      "fn": 1
+    },
+    "env": {
+      "precision": 100,
+      "recall": 86.2,
+      "f1": 92.6,
+      "gold": 567,
+      "fp": 0,
+      "fn": 78
+    },
+    "invalid_ids": {
+      "precision": 0,
+      "recall": 100,
+      "f1": 0,
+      "gold": 0,
+      "fp": 1,
+      "fn": 0
+    },
+    "json": {
+      "precision": 100,
+      "recall": 98.4,
+      "f1": 99.2,
+      "gold": 564,
+      "fp": 0,
+      "fn": 9
+    },
+    "log": {
+      "precision": 100,
+      "recall": 59.1,
+      "f1": 74.3,
+      "gold": 462,
+      "fp": 0,
+      "fn": 189
+    },
+    "sql": {
+      "precision": 100,
+      "recall": 98.4,
+      "f1": 99.2,
+      "gold": 555,
+      "fp": 0,
+      "fn": 9
+    },
+    "trace": {
+      "precision": 100,
+      "recall": 100,
+      "f1": 100,
+      "gold": 47,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "negative_documents": 299,
+  "negative_documents_flagged": 1,
+  "false_positives_per_10k_chars": 0.02,
+  "ms_per_document": 0.76,
+  "ms_per_10k_chars": 19.08
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+build/
+test-results/
+playwright-report/
+*.log
+.DS_Store
+eval/.venv/
+eval/cache/
+eval/ner/
+eval/bench/data/
