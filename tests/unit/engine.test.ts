@@ -72,8 +72,14 @@ describe("secrets", () => {
     ["token ghp_0123456789abcdefghijABCDEFGHIJ012345 leaked", "ghp_0123456789abcdefghijABCDEFGHIJ012345"],
     ["export HF_TOKEN=hf_AbCdEfGhIjKlMnOpQrStUvWxYz01234567", "hf_AbCdEfGhIjKlMnOpQrStUvWxYz01234567"],
     // Assembled at runtime so that repository secret scanners do not flag the fixture.
-    [`STRIPE=${["sk", "test", "4eC39HqLyjWDarjtT1zdp7dc"].join("_")}`, ["sk", "test", "4eC39HqLyjWDarjtT1zdp7dc"].join("_")],
-    [`SLACK=${["xoxb", "1234567890", "FAKEFAKEFAKEfake"].join("-")}`, ["xoxb", "1234567890", "FAKEFAKEFAKEfake"].join("-")],
+    [
+      `STRIPE=${["sk", "test", "4eC39HqLyjWDarjtT1zdp7dc"].join("_")}`,
+      ["sk", "test", "4eC39HqLyjWDarjtT1zdp7dc"].join("_"),
+    ],
+    [
+      `SLACK=${["xoxb", "1234567890", "FAKEFAKEFAKEfake"].join("-")}`,
+      ["xoxb", "1234567890", "FAKEFAKEFAKEfake"].join("-"),
+    ],
     ["DATABASE_URL=postgres://app:s3cr3t-Pa55@db.internal:5432/app", "s3cr3t-Pa55"],
     ['password = "Summer2024!"', "Summer2024!"],
     ["salasana: Kissa123", "Kissa123"],
