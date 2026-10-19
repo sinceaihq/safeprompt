@@ -1,7 +1,8 @@
 # SafePrompt-Bench
 
 A benchmark of the text people paste into AI chats, with annotated personal data and secrets. Dataset:
-[`sinceaihq/safeprompt-bench`](https://huggingface.co/datasets/sinceaihq/safeprompt-bench) · generator:
+[`sinceaihq/safeprompt-bench`](https://huggingface.co/datasets/sinceaihq/safeprompt-bench) (the data is not stored in
+this repository: GitHub blocks even fake credentials in real token formats; the generator recreates it exactly) · generator:
 [`eval/bench/generate.py`](../eval/bench/generate.py) · scorer: [`eval/bench/metrics.ts`](../eval/bench/metrics.ts).
 
 ## Why another benchmark

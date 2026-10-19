@@ -1,4 +1,4 @@
-"""Write tests/fixtures/safeprompt-bench-dev-masked.jsonl.gz: the dev split with secret values masked.
+"""Write tests/fixtures/safeprompt-bench-dev-masked.jsonl.gz: the dev split with token values masked.
 
 The repository does not contain token-shaped strings (GitHub push protection
 blocks even fake ones); the full data is on Hugging Face and can be
@@ -15,7 +15,8 @@ out = []
 for r in rows:
     chars = list(r["text"])
     for s in r["spans"]:
-        if s["label"] == "SECRET":
+        # Mask provider-format tokens only; passwords are not token-shaped.
+        if s["label"] == "SECRET" and s.get("kind") not in ("password", "url_password"):
             chars[s["start"] : s["end"]] = "x" * (s["end"] - s["start"])
     r = dict(r, text="".join(chars), spans=[s for s in r["spans"] if s["label"] != "SECRET"])
     out.append(json.dumps(r, ensure_ascii=False))
