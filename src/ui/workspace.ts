@@ -82,7 +82,10 @@ export class Workspace {
     this.input.addEventListener("input", () => {
       this.manual = [];
       window.clearTimeout(this.timer);
-      this.timer = window.setTimeout(() => this.refresh(), 120);
+      this.timer = window.setTimeout(() => {
+        this.timer = undefined;
+        this.refresh();
+      }, 120);
     });
 
     const clear = h("button", { type: "button" }, "Clear");
@@ -146,6 +149,12 @@ export class Workspace {
 
   /** Sanitized text; remembers the placeholder mapping for "Restore". */
   sanitized(): string {
+    // The review is refreshed shortly after typing; never act on a stale one.
+    if (this.timer !== undefined) {
+      window.clearTimeout(this.timer);
+      this.timer = undefined;
+      this.refresh();
+    }
     const result = this.review.result();
     for (const [k, v] of result.mapping) this.mapping.set(k, v);
     return result.text;
