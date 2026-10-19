@@ -43,7 +43,7 @@ of bank codes.
 
 ## Differences from EuroPII Guard 0.1.2
 
-Changed in SafePrompt (and reported upstream for EuroPII Guard 0.1.3):
+Changed in SafePrompt. The first three were also fixed upstream in [EuroPII Guard 0.1.3](https://github.com/sinceaihq/europii-guard/releases/tag/v0.1.3); the label rules are SafePrompt-only for now:
 
 | change                                                                                                            | why                                                                                                                                                                                                         |
 | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

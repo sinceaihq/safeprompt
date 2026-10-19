@@ -1,7 +1,7 @@
 // Detector definitions for European personal data.
 //
-// Ported from EuroPII Guard 0.1.2 with three deliberate differences, each
-// covered by tests:
+// Ported from EuroPII Guard 0.1.2. Differences, each covered by tests (the
+// first two are also fixed in EuroPII Guard 0.1.3):
 //  * international phone numbers written with "00" ("0049 30 ...") are found;
 //  * candidate patterns with alternatives are bounded on both sides, so a
 //    long number (e.g. an EAN barcode) never yields a shorter ID candidate;
