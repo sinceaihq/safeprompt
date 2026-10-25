@@ -9,8 +9,6 @@ First public release.
 
 ### Added
 
-- Study of in-browser NER models for names and places (`eval/ner/`); not shipped in this release (see its README).
-
 - Detection engine in TypeScript, ported from EuroPII Guard 0.1.2: national IDs of 22 European countries, EU VAT
   numbers, IBANs, payment cards, phone numbers, e-mail and IP addresses, validated with check digits and birth dates.
 - Secrets: documented API key and token formats, JSON Web Tokens, private key blocks, passwords in URLs, labelled
@@ -22,3 +20,4 @@ First public release.
   terms, allow list, country hints, sensitivity levels, _Protect this site_ for other sites.
 - Web demo, SafePrompt-Bench (synthetic prompt-shaped benchmark), validator parity tests against python-stdnum,
   Playwright end-to-end tests with replica chat pages, security review and reproducible build.
+- Study of in-browser NER models for names and places (`eval/ner/`); not shipped in this release (see its README).
